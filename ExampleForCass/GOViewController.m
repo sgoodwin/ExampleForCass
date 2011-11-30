@@ -7,6 +7,7 @@
 //
 
 #import "GOViewController.h"
+#import "GOCustomView.h"
 
 @implementation GOViewController
 
@@ -22,6 +23,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    GOCustomView *someSubview = [[GOCustomView alloc] initWithFrame:CGRectInset(self.view.bounds, 10.0f, 10.0f)];
+    [someSubview setBackgroundColor:[UIColor redColor]];
+    [self.view addSubview:someSubview];
+    [someSubview release];
+    
+    UIButton *importantButton = [UIButton buttonWithType:UIButtonTypeContactAdd];
+    [importantButton addTarget:someSubview action:@selector(doStuff:) forControlEvents:UIControlEventTouchUpInside];
+    [someSubview addSubview:importantButton];
 }
 
 - (void)viewDidUnload

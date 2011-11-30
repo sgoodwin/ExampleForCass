@@ -15,6 +15,7 @@
 		9B35041F1486F9EA00A751E4 /* GOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B35041E1486F9EA00A751E4 /* GOAppDelegate.m */; };
 		9B3504221486F9EA00A751E4 /* GOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3504211486F9EA00A751E4 /* GOViewController.m */; };
 		9B3504251486F9EA00A751E4 /* GOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B3504231486F9EA00A751E4 /* GOViewController.xib */; };
+		9B35042D1486FA7400A751E4 /* GOCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B35042C1486FA7400A751E4 /* GOCustomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,17 @@
 		9B35040E1486F9EA00A751E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9B3504101486F9EA00A751E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9B3504121486F9EA00A751E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9B3504161486F9EA00A751E4 /* ExampleForCass-Info.plist */ = {isa = PBXFileReference; path = "ExampleForCass-Info.plist"; sourceTree = "<group>"; };
+		9B3504161486F9EA00A751E4 /* ExampleForCass-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExampleForCass-Info.plist"; sourceTree = "<group>"; };
 		9B3504181486F9EA00A751E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B35041A1486F9EA00A751E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9B35041C1486F9EA00A751E4 /* ExampleForCass-Prefix.pch */ = {isa = PBXFileReference; path = "ExampleForCass-Prefix.pch"; sourceTree = "<group>"; };
-		9B35041D1486F9EA00A751E4 /* GOAppDelegate.h */ = {isa = PBXFileReference; path = GOAppDelegate.h; sourceTree = "<group>"; };
+		9B35041C1486F9EA00A751E4 /* ExampleForCass-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExampleForCass-Prefix.pch"; sourceTree = "<group>"; };
+		9B35041D1486F9EA00A751E4 /* GOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOAppDelegate.h; sourceTree = "<group>"; };
 		9B35041E1486F9EA00A751E4 /* GOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOAppDelegate.m; sourceTree = "<group>"; };
-		9B3504201486F9EA00A751E4 /* GOViewController.h */ = {isa = PBXFileReference; path = GOViewController.h; sourceTree = "<group>"; };
+		9B3504201486F9EA00A751E4 /* GOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOViewController.h; sourceTree = "<group>"; };
 		9B3504211486F9EA00A751E4 /* GOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOViewController.m; sourceTree = "<group>"; };
 		9B3504241486F9EA00A751E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GOViewController.xib; sourceTree = "<group>"; };
+		9B35042B1486FA7400A751E4 /* GOCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOCustomView.h; sourceTree = "<group>"; };
+		9B35042C1486FA7400A751E4 /* GOCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOCustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 		9B3504141486F9EA00A751E4 /* ExampleForCass */ = {
 			isa = PBXGroup;
 			children = (
+				9B35042B1486FA7400A751E4 /* GOCustomView.h */,
+				9B35042C1486FA7400A751E4 /* GOCustomView.m */,
 				9B35041D1486F9EA00A751E4 /* GOAppDelegate.h */,
 				9B35041E1486F9EA00A751E4 /* GOAppDelegate.m */,
 				9B3504201486F9EA00A751E4 /* GOViewController.h */,
@@ -164,6 +169,7 @@
 				9B35041B1486F9EA00A751E4 /* main.m in Sources */,
 				9B35041F1486F9EA00A751E4 /* GOAppDelegate.m in Sources */,
 				9B3504221486F9EA00A751E4 /* GOViewController.m in Sources */,
+				9B35042D1486FA7400A751E4 /* GOCustomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
